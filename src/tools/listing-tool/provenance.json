@@ -1,0 +1,598 @@
+{
+  "source": "listing-tool/listing-tool and listing-tool/listing-tool-backend",
+  "notes": "Only namespaced imports, authenticated transport, navigation and UI wrappers change. Original source folders are untouched.",
+  "frontend": [
+    {
+      "path": "app/page.tsx",
+      "sourceSha256": "703abadc59d7f8a506c8c19cbec54e10e3c6c456651185d111b04cf1723b5dbb",
+      "integratedSha256": "fcff4de4a9e0a19464f175134e11875102ad14a8129fc9bc43b7f6fb4fc30c17",
+      "normalizedSha256": "e5f0ac40f9950fe7642acaf9b75208cbd029597cb12baac55ecc5e940071da35"
+    },
+    {
+      "path": "app/create-general-product/page.tsx",
+      "sourceSha256": "39dc7458f59f3c36a4d30bcde835189e792a4fbb7de9a43552a58ae70f65f840",
+      "integratedSha256": "edad7494fc63613301ace403f9a2cf208ed532687f86c2c0b64931bd77155765",
+      "normalizedSha256": "39dc7458f59f3c36a4d30bcde835189e792a4fbb7de9a43552a58ae70f65f840"
+    },
+    {
+      "path": "app/create-product/page.tsx",
+      "sourceSha256": "9cedd1665dc8fc11c8e5aa349a29c4cda80b16759225d64b75a9fffd20ecfad9",
+      "integratedSha256": "37b6d7067f83886e956feffe1307e800fea17fead385f9e6af6df73296ce4a6b",
+      "normalizedSha256": "93bdf407296c009397f72fc888a9a3324d3383167d0f71535198cf8fb86dca2f"
+    },
+    {
+      "path": "app/general-products/page.tsx",
+      "sourceSha256": "321c1ca303381916dc7394fd2ab69393be875e07e310704869b1f56645e81041",
+      "integratedSha256": "96adfcfbbba872cb0afe469323ddefc3dc73f1e3f28ef394ef1ffd559824dec0",
+      "normalizedSha256": "321c1ca303381916dc7394fd2ab69393be875e07e310704869b1f56645e81041"
+    },
+    {
+      "path": "app/products/page.tsx",
+      "sourceSha256": "75932f8185f60a759a9a8f0309c914d59f1950c193ca28c06d203486d6f5032d",
+      "integratedSha256": "417c2ebecc12c31a4c46caead031f13f810560ab7dd52292d478b4c672cec656",
+      "normalizedSha256": "cd66a336bde731bf6a91d419f3cffc9dae3bb2446cfc437db4a7cfdcd8dd6c05"
+    },
+    {
+      "path": "app/charms/batch/page.tsx",
+      "sourceSha256": "fdd61aa6b3cc58ea7bd68cb2c1df12864d763d613b6dbd3ce9d9facc091a7ef5",
+      "integratedSha256": "762362f83e644860edee9c94deb60f37abf70189dc2c0da68ed658ba2f0c94a7",
+      "normalizedSha256": "fdd61aa6b3cc58ea7bd68cb2c1df12864d763d613b6dbd3ce9d9facc091a7ef5"
+    },
+    {
+      "path": "app/charms/[designNumber]/page.tsx",
+      "sourceSha256": "31ffa9a6383ceab6dcc94b5f7b0db2a68900b549b1bae8eef383eb2054129c9a",
+      "integratedSha256": "08804716263772c1a67d1e2b4c6f0387bad1263cb4ff8027999c7e5ce7e7c25e",
+      "normalizedSha256": "31ffa9a6383ceab6dcc94b5f7b0db2a68900b549b1bae8eef383eb2054129c9a"
+    },
+    {
+      "path": "app/general-products/[productId]/page.tsx",
+      "sourceSha256": "a5e499a5882b4e15abab3dbd8060d2b68335f979cd0f5b029274a1dce02c5845",
+      "integratedSha256": "c42868c7330aede3e27196da7dfcdfea7938466ac257522eeec6e5423c264697",
+      "normalizedSha256": "a5e499a5882b4e15abab3dbd8060d2b68335f979cd0f5b029274a1dce02c5845"
+    },
+    {
+      "path": "app/general-products/category/[category]/page.tsx",
+      "sourceSha256": "c39047850a76865fdc8d2de9918ebbf7604324cc620bcdf609f7471a38ed700d",
+      "integratedSha256": "91b937e0047b9fe0f9f09cd2192443977a14a841f3ae5bb54a53f825b15f6ef5",
+      "normalizedSha256": "c39047850a76865fdc8d2de9918ebbf7604324cc620bcdf609f7471a38ed700d"
+    },
+    {
+      "path": "app/products/model/[model]/page.tsx",
+      "sourceSha256": "30ab21dce74b3c7f204bb0e605a5be692ba5eb5e4cf93042ba81a23a32590139",
+      "integratedSha256": "4005962ab5f74231fd514bacba94f7361d6cb080a976eb5734f8e3ee538b2b54",
+      "normalizedSha256": "30ab21dce74b3c7f204bb0e605a5be692ba5eb5e4cf93042ba81a23a32590139"
+    },
+    {
+      "path": "components/CharmBatchBuilder.tsx",
+      "sourceSha256": "874eb38ea531631dd72793f3cfc98dfc19f5f776c8d2419d5465542a2954347f",
+      "integratedSha256": "717222a635747c8747d71198b0f35d2a0e83c2c01fd2f730e88e1818c1f971a9",
+      "normalizedSha256": "0b456f1817d37888f595aebabcd1205ff1c0dab169f78dc4f18d0ebd07774377"
+    },
+    {
+      "path": "components/CharmManager.tsx",
+      "sourceSha256": "e6af8b2382b8fbcde29b343badf578d5594337060f5fe82d4af9559c42b014e0",
+      "integratedSha256": "d8b81347a8460c071b0868e6e7db690aabad9243fd201bc5429b7bf62767bdb8",
+      "normalizedSha256": "78c28ed9cdc9202aa860b5bdb83959b581622625fa81cd93043c768887adfbf7"
+    },
+    {
+      "path": "components/GeneralProductBuilder.tsx",
+      "sourceSha256": "4be386259a22f0645a1c1e6c6ca0aa1ba7017b059a7618fb2652d881201b3c4f",
+      "integratedSha256": "9cd0eb4b3dcd63442d0e72469d91729d823b7b558bb38c585e3309705888f163",
+      "normalizedSha256": "4be386259a22f0645a1c1e6c6ca0aa1ba7017b059a7618fb2652d881201b3c4f"
+    },
+    {
+      "path": "components/GeneralProductCatalog.tsx",
+      "sourceSha256": "615db025949bcbb5aecf021b27066d8a498e502e29a7dc17be690102af4efe45",
+      "integratedSha256": "387fbd4c1b565626b1e701a693ba668bdcf976de7869e9516dd7bdc80372e44e",
+      "normalizedSha256": "615db025949bcbb5aecf021b27066d8a498e502e29a7dc17be690102af4efe45"
+    },
+    {
+      "path": "components/GeneralProductDetails.tsx",
+      "sourceSha256": "7e63e9b39e30786499f874d3a2f95d998c7432f7efa96ae979dedbe00fbee3fe",
+      "integratedSha256": "3eb81601466d2c4d8a914580909ae7356b3f52d1ca5f0d3d02f186a315ff5230",
+      "normalizedSha256": "7e63e9b39e30786499f874d3a2f95d998c7432f7efa96ae979dedbe00fbee3fe"
+    },
+    {
+      "path": "components/GeneralProductDialog.tsx",
+      "sourceSha256": "9297615187a740976a8ce28b6c6fef3de00192493df730887c5b667da91de73e",
+      "integratedSha256": "9297615187a740976a8ce28b6c6fef3de00192493df730887c5b667da91de73e",
+      "normalizedSha256": "9297615187a740976a8ce28b6c6fef3de00192493df730887c5b667da91de73e"
+    },
+    {
+      "path": "components/GeneralProductExportDialog.tsx",
+      "sourceSha256": "192102fae657302ed2e442a23d6f39e456db633bbc6b69ff40e1ff0ad31a72d8",
+      "integratedSha256": "bafccab01a7e45b14bb5d1391cca2affcfd6c866c8ebfb1ed8f44f00018c2f24",
+      "normalizedSha256": "192102fae657302ed2e442a23d6f39e456db633bbc6b69ff40e1ff0ad31a72d8"
+    },
+    {
+      "path": "components/GeneralProductImages.tsx",
+      "sourceSha256": "d97756863dd405a0284b87268371469de41848185f806f747a64aad9b7c13cdc",
+      "integratedSha256": "7c168e6b0973d14af33a3fcca3d65a165cba52cdaffbd4f15f39dfd95c7c28c7",
+      "normalizedSha256": "d97756863dd405a0284b87268371469de41848185f806f747a64aad9b7c13cdc"
+    },
+    {
+      "path": "components/GeneralProductPreviewTable.tsx",
+      "sourceSha256": "139760cac2037cd5d04c5b5ba723424afe9d701e44d54b999b275cf73a9d05a8",
+      "integratedSha256": "3a939b55af9ddc4a3ca8311005f1d0beec3c398bf7b3ee07699d0bf9e7c4c17c",
+      "normalizedSha256": "139760cac2037cd5d04c5b5ba723424afe9d701e44d54b999b275cf73a9d05a8"
+    },
+    {
+      "path": "components/GeneralProductRowEditor.tsx",
+      "sourceSha256": "b85722cf08872d1e7750ff702b31084064dda01108e0e8de6b6b4a8cfdeea581",
+      "integratedSha256": "408f56132826756a885fbe742901869eab765e7d214ac6e5448f1d354ca1ce96",
+      "normalizedSha256": "b85722cf08872d1e7750ff702b31084064dda01108e0e8de6b6b4a8cfdeea581"
+    },
+    {
+      "path": "components/MeeshoImageSetUpload.tsx",
+      "sourceSha256": "587ceae1ddd84a2aebb101d37a8f76a8761d29966b4a61053462f883aab239c5",
+      "integratedSha256": "569d6b21435a29efae83d4c8d926c2fb4416a89541a42f0e800fba8490161b39",
+      "normalizedSha256": "587ceae1ddd84a2aebb101d37a8f76a8761d29966b4a61053462f883aab239c5"
+    },
+    {
+      "path": "components/MeeshoImageUpload.tsx",
+      "sourceSha256": "6b356f7f5c26b82c1b8f3eb9b7d0a795f4257f7e112b56144fb268775e7686c9",
+      "integratedSha256": "ea77c7b70ba319c0faba68f38c6de22186dfb9c98c0385bf719e56d4a4ccc2db",
+      "normalizedSha256": "6b356f7f5c26b82c1b8f3eb9b7d0a795f4257f7e112b56144fb268775e7686c9"
+    },
+    {
+      "path": "components/MeeshoVariantImagesUpload.tsx",
+      "sourceSha256": "d4a685bba57edd3c91425fa5818d9e64b6e1f049e09af0477e81af75bc405113",
+      "integratedSha256": "d65a006f3b3decda57494b883cd614735749e047dfc402e86d1b2d0a273e8783",
+      "normalizedSha256": "d4a685bba57edd3c91425fa5818d9e64b6e1f049e09af0477e81af75bc405113"
+    },
+    {
+      "path": "components/ProductImport.tsx",
+      "sourceSha256": "72ea32929d8642af712e8a51d233d786e6c7a55948037e3037c7d38710bbe644",
+      "integratedSha256": "6d6db32e1db8c693a9713a52a436ea07920575dc30791a8b080082a71bc9af40",
+      "normalizedSha256": "2a312d7db28869474a08f36b3c8b568a9ccf8fedfbc08c69a210dcb481cadc15"
+    },
+    {
+      "path": "components/ProductTitleNotice.tsx",
+      "sourceSha256": "6d7e79fe00873f1eaee308ad5232aff924930dceab57a1d8286c778571ddb1b4",
+      "integratedSha256": "4fec2a2ce86dde32ff13d509255a29b9628656db0763e5bb0cc17354b936f062",
+      "normalizedSha256": "6d7e79fe00873f1eaee308ad5232aff924930dceab57a1d8286c778571ddb1b4"
+    },
+    {
+      "path": "components/SavedVariantImagesUpload.tsx",
+      "sourceSha256": "69d0400e367c73a03ace9829230f1201562ae5bc5d5f16d0159f45edaf91b1b0",
+      "integratedSha256": "09b20429c12d790d57c7a406fb56c4bf8862d719953a07f74aaade2430164d69",
+      "normalizedSha256": "69d0400e367c73a03ace9829230f1201562ae5bc5d5f16d0159f45edaf91b1b0"
+    },
+    {
+      "path": "components/UploadedImagePreview.tsx",
+      "sourceSha256": "043a51a0a9b74ae5b8045b7cfc71a98d9c18baf45e7f89dc729bb9c549ca6adf",
+      "integratedSha256": "043a51a0a9b74ae5b8045b7cfc71a98d9c18baf45e7f89dc729bb9c549ca6adf",
+      "normalizedSha256": "043a51a0a9b74ae5b8045b7cfc71a98d9c18baf45e7f89dc729bb9c549ca6adf"
+    },
+    {
+      "path": "components/ProductForm/AiProductScanner.tsx",
+      "sourceSha256": "76934caecfcc9b1124cb03faba59f473bfe1a01a0b484d8f96e0fbfbadb85698",
+      "integratedSha256": "0d7d7fd00fc63079e0bcbeb05bfce13f2f99e99fb39e621f077eddbe2c08a490",
+      "normalizedSha256": "14722f4685d152380b94001027fde2f7cdd67f794c304a28c7339c6757ec113e"
+    },
+    {
+      "path": "components/ProductForm/BasicInfo.tsx",
+      "sourceSha256": "9d6ee73b8e7853796ee9bc99ef7d10aaaa8dd8af89bcd36d918ac15cb30309ca",
+      "integratedSha256": "a5632ef3873bcc1d262449323e6f5718f5131cd166257aac0ed7148e7f94540a",
+      "normalizedSha256": "ab9f003c3646b74d27b6dbccb8ae048bed5ccf0b8fa139508c0f16484cade0cf"
+    },
+    {
+      "path": "components/ProductForm/DesignLibraryPicker.tsx",
+      "sourceSha256": "9e23cbed5ff7f7d9840575a6a47a7aa511dfad8e000b74b0e99421231383d87f",
+      "integratedSha256": "1540004732801316b9a8fcd4140e7859f6e01abf58cbc4674d17877364d7e74a",
+      "normalizedSha256": "113571c6f4a02e8198ceaaa5be5bcb1d32a2397d370a201e7b04c601dfdceb5f"
+    },
+    {
+      "path": "components/ProductForm/ExportButton.tsx",
+      "sourceSha256": "85d04115652da22b99c54dbe9511f504a97c0e45108c60ba0222ce68e194d30b",
+      "integratedSha256": "55b40b2807be925ca6f19d8640ea14794df90405ba6159c1b3f0d558e654f183",
+      "normalizedSha256": "494097156be36b521fc7e5345f984469486f8892a3fa306c5ae5be5dbb24495d"
+    },
+    {
+      "path": "components/ProductForm/ImageLinks.tsx",
+      "sourceSha256": "5125b3bedd23c5305b25c5ad8eca911f4871656ff2d3f812dd067843a5885503",
+      "integratedSha256": "36434a9639d07a4fe3df262a2320aafb9637f3105491941241404ebc1cbc9962",
+      "normalizedSha256": "5125b3bedd23c5305b25c5ad8eca911f4871656ff2d3f812dd067843a5885503"
+    },
+    {
+      "path": "components/ProductForm/ImporterDetails.tsx",
+      "sourceSha256": "ab94ca7ebbb19266af8133712395f68c60e6a1b9b10bd25a982e90c7cd4dd33d",
+      "integratedSha256": "ab94ca7ebbb19266af8133712395f68c60e6a1b9b10bd25a982e90c7cd4dd33d",
+      "normalizedSha256": "847afc5ed50b7c281e187cc862dd94d7632eb6d3e22e39d15f60952966bb3b1f"
+    },
+    {
+      "path": "components/ProductForm/ManufacturerDetails.tsx",
+      "sourceSha256": "bd78d0bbfb8970af1841e19bd7d6ccfe72388df189495cf52edc417c77457d04",
+      "integratedSha256": "bd78d0bbfb8970af1841e19bd7d6ccfe72388df189495cf52edc417c77457d04",
+      "normalizedSha256": "0e3fadce704d84b1c9f2eec54df2adff1032ce60815e12f7b93298621f1fe0b9"
+    },
+    {
+      "path": "components/ProductForm/ModelSelector.tsx",
+      "sourceSha256": "5fdf195befbd59d701306d3848bec3b20215f084f4b80dcbd043437ad682e0cd",
+      "integratedSha256": "6948d3982de5b4627c1739a1e7043822df1da1ed5223e076982dcb2ec0b7a8f2",
+      "normalizedSha256": "e9675cd06b96d543fbaab13c70706cfe83be87417eac8d4c300cdccb68bea654"
+    },
+    {
+      "path": "components/ProductForm/PackerDetails.tsx",
+      "sourceSha256": "2deaaab1c7be218c49355a5b48e3ceac0c99a489fb46ddbed833cf6107489701",
+      "integratedSha256": "2deaaab1c7be218c49355a5b48e3ceac0c99a489fb46ddbed833cf6107489701",
+      "normalizedSha256": "a76c9ce6b500d25154abdf5ea239620746fc613d662d8fbf87beced6a1781167"
+    },
+    {
+      "path": "components/ProductForm/PreviewTable.tsx",
+      "sourceSha256": "78723d5516acac9b34a034cbd777cf61153f3e9cb33645b943d7df18575d160e",
+      "integratedSha256": "1830e9ddcde3489374e2c1e732f5393c545b0b4ad4819ae1ad5c0dbf75114a43",
+      "normalizedSha256": "ddc8febaa17a1e0a9c80ab5b0f8e12e5f9ee439b18e45a367b3476cbebd1f01c"
+    },
+    {
+      "path": "components/ProductForm/PricingDetails.tsx",
+      "sourceSha256": "f06d7b6d04b55601cd2d4ea8052f0c7d680de8f3f5f5213db2c7ee7f17de5501",
+      "integratedSha256": "f06d7b6d04b55601cd2d4ea8052f0c7d680de8f3f5f5213db2c7ee7f17de5501",
+      "normalizedSha256": "8a718f627fdda87e8827c28ef9ca2b5801cf0c9e05649e73a6b8017bbb14e298"
+    },
+    {
+      "path": "components/ProductForm/ProductAttributes.tsx",
+      "sourceSha256": "87bb34d7286fdebf3a8f0ef0be97c4d0ea3006847ad46b02caca0522c7c1a5c6",
+      "integratedSha256": "5c78f2b0bbea460a15ca59bb83d039a7925279df27bfd761261ecdbe945f6e7d",
+      "normalizedSha256": "9047bbb9f18fdb00b59dd564698e14c2ca2232070b2afbd5a7cb40050143bf30"
+    },
+    {
+      "path": "components/ProductForm/ProductCard.tsx",
+      "sourceSha256": "03d753953bde2be0f5b48cc5e040e69682c9b4b327b412ec67b575e20c85425e",
+      "integratedSha256": "a91e8d618105d722cb0e0c6c9785b7521ab8ddb9a827371f0900e7e40afd3010",
+      "normalizedSha256": "9c9d217c888906dbc5e460273f02804ab841c322639e828800982842219bf9a6"
+    },
+    {
+      "path": "components/ProductForm/ProductDetails.tsx",
+      "sourceSha256": "d8b2587ea4be0d887c5d3691532e7ce27444d0c9e347a7058c8a2ccca379134a",
+      "integratedSha256": "d8b2587ea4be0d887c5d3691532e7ce27444d0c9e347a7058c8a2ccca379134a",
+      "normalizedSha256": "f3ee5ae367a44013fbc455ebb8f9db2b4ea657d0e2e652405b545eb791083043"
+    },
+    {
+      "path": "components/ProductForm/ProductEditorModal.tsx",
+      "sourceSha256": "1edf5130a763f64b3f21f1b0c912d3f228642cd287296540a203876e1a223244",
+      "integratedSha256": "59d55088d8aa79598439e86e64ceef99cc8df3cbaddc414d8b5ac9b88095b9cf",
+      "normalizedSha256": "910fe843ca77b94e560e53f3fdeee86ca7ae0b27fa6805575ebd4dd1a200aced"
+    },
+    {
+      "path": "components/ProductForm/SavedProducts.tsx",
+      "sourceSha256": "17cd84bd85f761f0fd0633c4da90cb99a71dfbfd80a64a26eb7eb14d9620c33c",
+      "integratedSha256": "9db3d7bc4bb996c2c756618f65bffc1b0c1fb53199d005d3ef1e910954f6a097",
+      "normalizedSha256": "784e5611a26bc882c753424150e4e14d9afed648a279242a88476e88bf27838e"
+    },
+    {
+      "path": "components/ProductForm/SectionCard.tsx",
+      "sourceSha256": "502b99c02d5dc25da8baa2f537a692873f527cbdb3333396da59d8f749d6848d",
+      "integratedSha256": "502b99c02d5dc25da8baa2f537a692873f527cbdb3333396da59d8f749d6848d",
+      "normalizedSha256": "272af52957e8af84f9a76b2e56ed8d318aba40a7dea20a68c3191d39476ffe32"
+    },
+    {
+      "path": "components/ProductForm/SkuGenerator.tsx",
+      "sourceSha256": "80a746198bc12b9d7d0066442416cbd13ae5e0cae1af817309716bbc618b5c4b",
+      "integratedSha256": "b951df35a7760575f09ccbef26bebcf8ad270a0bc4adba241dc4a5d1618cb53f",
+      "normalizedSha256": "601835dcd9ab84ed29e935e3246138234f7a93166cfde20d2768a8b95e953523"
+    },
+    {
+      "path": "components/ProductForm/VariantImageLinks.tsx",
+      "sourceSha256": "e847d74e4c16569da223bbedfcd4947313a237510145de87d58701bb84f556cc",
+      "integratedSha256": "c5b9117a54e47ee5cab7b2a39960d747227884f13ac0b8b444d8627c75e00c52",
+      "normalizedSha256": "316c22b80a23e045c33fe5e223ec90960f1cf3a1fd12d70bc00d54ed24300cdf"
+    },
+    {
+      "path": "lib/brands.ts",
+      "sourceSha256": "def66ba2302bd01bf5329fa7ad1b92c7b031847c0dae87ef2152a1167b6a8e4b",
+      "integratedSha256": "def66ba2302bd01bf5329fa7ad1b92c7b031847c0dae87ef2152a1167b6a8e4b",
+      "normalizedSha256": "def66ba2302bd01bf5329fa7ad1b92c7b031847c0dae87ef2152a1167b6a8e4b"
+    },
+    {
+      "path": "lib/charm-import.ts",
+      "sourceSha256": "52477b25baa75f95ea6753735f395b5efdf7249343a79906cb8b46c14f80201e",
+      "integratedSha256": "52477b25baa75f95ea6753735f395b5efdf7249343a79906cb8b46c14f80201e",
+      "normalizedSha256": "52477b25baa75f95ea6753735f395b5efdf7249343a79906cb8b46c14f80201e"
+    },
+    {
+      "path": "lib/charm-order.ts",
+      "sourceSha256": "f978023fe3173e1cf7f6019cdb7b465a4f6c390d19e58c289dd8e6a63d32fa47",
+      "integratedSha256": "f978023fe3173e1cf7f6019cdb7b465a4f6c390d19e58c289dd8e6a63d32fa47",
+      "normalizedSha256": "ec420f2d3b0711593a67e4b275bece9cb805bbbae3c53957c90cd730bb73d43b"
+    },
+    {
+      "path": "lib/columnMap.ts",
+      "sourceSha256": "b83a020d14ad4393ded5ba1febd4abd1613b327a0aeff6c462daf1c7025bbf10",
+      "integratedSha256": "b83a020d14ad4393ded5ba1febd4abd1613b327a0aeff6c462daf1c7025bbf10",
+      "normalizedSha256": "ea7f7e75cd7b4e30d9f710b6cebed6fca62218aeb0d48d9d499964e0a9b2a61a"
+    },
+    {
+      "path": "lib/constants.ts",
+      "sourceSha256": "f039f2364bb68cbbf11309d7b027098be736fc55057be7b4ea3420ce759fc6d6",
+      "integratedSha256": "0ba58b74733c6939f287edd569fe25370246600aa1716795eeb8a7958fc7878e",
+      "normalizedSha256": "56735a5569f1cd235216ab6075b419b1e8de04931cd178749802b741f8ffc836"
+    },
+    {
+      "path": "lib/excel.ts",
+      "sourceSha256": "40a1dea505c433500b8d14970769b8c1c9450b4192bc9204e62672b341bbdccc",
+      "integratedSha256": "5dc237de46baa8746deb9a9522a0d2d7b0f2462d2343f95294bf9ca947cd96ee",
+      "normalizedSha256": "cf4290b062b9a9ecd48e019fae4196fd53b906de6bfdefd82af100acedd43725"
+    },
+    {
+      "path": "lib/general-product-batch.ts",
+      "sourceSha256": "aab2762a3bf0b539d10c7cbaf22fe269deb53e4518f22f8ab8832a169ed34a79",
+      "integratedSha256": "aab2762a3bf0b539d10c7cbaf22fe269deb53e4518f22f8ab8832a169ed34a79",
+      "normalizedSha256": "aab2762a3bf0b539d10c7cbaf22fe269deb53e4518f22f8ab8832a169ed34a79"
+    },
+    {
+      "path": "lib/general-product-catalog.ts",
+      "sourceSha256": "5af80c51261e1f8f47e2f676799098f272ef0531be2cc17d515e817a1683adfb",
+      "integratedSha256": "5af80c51261e1f8f47e2f676799098f272ef0531be2cc17d515e817a1683adfb",
+      "normalizedSha256": "5af80c51261e1f8f47e2f676799098f272ef0531be2cc17d515e817a1683adfb"
+    },
+    {
+      "path": "lib/general-product-columns.ts",
+      "sourceSha256": "4134c05a427e8447d58deacce4f4901d2309216f461dcb6538f81d22b1fdeebc",
+      "integratedSha256": "39240d90ee01fce67219a5e33e1ccc01594b4e664525c8633447c63e21456778",
+      "normalizedSha256": "4134c05a427e8447d58deacce4f4901d2309216f461dcb6538f81d22b1fdeebc"
+    },
+    {
+      "path": "lib/general-product-defaults.ts",
+      "sourceSha256": "8bb5deaeab113c65a3b858afc518e851c8c8b00406669fe501f95d7c716767d7",
+      "integratedSha256": "8bb5deaeab113c65a3b858afc518e851c8c8b00406669fe501f95d7c716767d7",
+      "normalizedSha256": "8bb5deaeab113c65a3b858afc518e851c8c8b00406669fe501f95d7c716767d7"
+    },
+    {
+      "path": "lib/general-product-excel.ts",
+      "sourceSha256": "2595c597368cada27ac2cca987dec2c5612ff87fa1cec640150f2034b3abf77e",
+      "integratedSha256": "684294bef86d5b1f4ec5591840a2bafd99bda9d3be611d8e15f8a79fc128e968",
+      "normalizedSha256": "2595c597368cada27ac2cca987dec2c5612ff87fa1cec640150f2034b3abf77e"
+    },
+    {
+      "path": "lib/general-product-listing.ts",
+      "sourceSha256": "1a481909b7734a7377a2b7eae88a8d63fc4c2da735f8f1c94813c1eb2b77ae5b",
+      "integratedSha256": "1a481909b7734a7377a2b7eae88a8d63fc4c2da735f8f1c94813c1eb2b77ae5b",
+      "normalizedSha256": "1a481909b7734a7377a2b7eae88a8d63fc4c2da735f8f1c94813c1eb2b77ae5b"
+    },
+    {
+      "path": "lib/general-product-review.ts",
+      "sourceSha256": "20ff417ddc9164c998de45f1dc33709aa3ba96c5eafb20e1368b8616d294acbd",
+      "integratedSha256": "20ff417ddc9164c998de45f1dc33709aa3ba96c5eafb20e1368b8616d294acbd",
+      "normalizedSha256": "20ff417ddc9164c998de45f1dc33709aa3ba96c5eafb20e1368b8616d294acbd"
+    },
+    {
+      "path": "lib/general-product-variant-generation.ts",
+      "sourceSha256": "ef095b97423baf9f5463db19d115300e70d0778bff5bfe224f9b87c6aeb22a96",
+      "integratedSha256": "598287c140f6814620101651d287da436fbedb9737962bca458974fd7b2b8026",
+      "normalizedSha256": "ef095b97423baf9f5463db19d115300e70d0778bff5bfe224f9b87c6aeb22a96"
+    },
+    {
+      "path": "lib/general-products-api.ts",
+      "sourceSha256": "588a67a6452277a0f688a507553b085f9904cfc18a10bf28709813601e7bd9cf",
+      "integratedSha256": "7827dbd0d323518f2efa9f2ddca0be2fe30496698992c560ec9d862433df647e",
+      "normalizedSha256": "2aaf8dca5801a3b43fae0b575419f24b44ce2989f1aecd56b40fa6913db79c37"
+    },
+    {
+      "path": "lib/listing-options.json",
+      "sourceSha256": "692ccf520005595f821c5196d11dbabef3382354ddcbb598d09f5110c9df3894",
+      "integratedSha256": "692ccf520005595f821c5196d11dbabef3382354ddcbb598d09f5110c9df3894",
+      "normalizedSha256": "692ccf520005595f821c5196d11dbabef3382354ddcbb598d09f5110c9df3894"
+    },
+    {
+      "path": "lib/meesho-image-set.ts",
+      "sourceSha256": "010e8058d58d8eaa9b8c5532569d7c6c5021bde9c4a9600e3c092de990255e63",
+      "integratedSha256": "010e8058d58d8eaa9b8c5532569d7c6c5021bde9c4a9600e3c092de990255e63",
+      "normalizedSha256": "010e8058d58d8eaa9b8c5532569d7c6c5021bde9c4a9600e3c092de990255e63"
+    },
+    {
+      "path": "lib/meesho-staging.ts",
+      "sourceSha256": "b32ebd733ca82140fd705e13b7e6c197dce9e3460507b5915fe6cb6a11096141",
+      "integratedSha256": "b32ebd733ca82140fd705e13b7e6c197dce9e3460507b5915fe6cb6a11096141",
+      "normalizedSha256": "b32ebd733ca82140fd705e13b7e6c197dce9e3460507b5915fe6cb6a11096141"
+    },
+    {
+      "path": "lib/meesho-upload-client.ts",
+      "sourceSha256": "34981aa16136c8cc720ef6d179eefce924ccbf41945ec5dadd535767ab3c2bbb",
+      "integratedSha256": "34981aa16136c8cc720ef6d179eefce924ccbf41945ec5dadd535767ab3c2bbb",
+      "normalizedSha256": "34981aa16136c8cc720ef6d179eefce924ccbf41945ec5dadd535767ab3c2bbb"
+    },
+    {
+      "path": "lib/meesho-upload-contract.ts",
+      "sourceSha256": "de2b1e0d3a242372b6a2c4305d5a3284c1d1cb5d70b4557624180bab4bb4c297",
+      "integratedSha256": "de2b1e0d3a242372b6a2c4305d5a3284c1d1cb5d70b4557624180bab4bb4c297",
+      "normalizedSha256": "de2b1e0d3a242372b6a2c4305d5a3284c1d1cb5d70b4557624180bab4bb4c297"
+    },
+    {
+      "path": "lib/meesho-variant-images.ts",
+      "sourceSha256": "8d2b109e91c7ee024845d33edd44d5792b118f5cf1ddcebbfff18401393e6a38",
+      "integratedSha256": "8d2b109e91c7ee024845d33edd44d5792b118f5cf1ddcebbfff18401393e6a38",
+      "normalizedSha256": "8d2b109e91c7ee024845d33edd44d5792b118f5cf1ddcebbfff18401393e6a38"
+    },
+    {
+      "path": "lib/models.ts",
+      "sourceSha256": "e524af08b304d71369da6a27e882dee8c7763129da4cbc25faf485cfcb8e1d47",
+      "integratedSha256": "e524af08b304d71369da6a27e882dee8c7763129da4cbc25faf485cfcb8e1d47",
+      "normalizedSha256": "e524af08b304d71369da6a27e882dee8c7763129da4cbc25faf485cfcb8e1d47"
+    },
+    {
+      "path": "lib/options.ts",
+      "sourceSha256": "ffa000a89d431eafe2a17dedfb66cae9551a72eebeba0b6ef8a6414449bfe0cc",
+      "integratedSha256": "ffa000a89d431eafe2a17dedfb66cae9551a72eebeba0b6ef8a6414449bfe0cc",
+      "normalizedSha256": "9a76cf4a838e7788a91f18bf38cd65b67806531d793f9f679200db902fd9304e"
+    },
+    {
+      "path": "lib/pricing.ts",
+      "sourceSha256": "8f9dc986e8d1b9e57cde64a9b52d7d43a331ae78130a341f6321735682bce7ed",
+      "integratedSha256": "8f9dc986e8d1b9e57cde64a9b52d7d43a331ae78130a341f6321735682bce7ed",
+      "normalizedSha256": "8f9dc986e8d1b9e57cde64a9b52d7d43a331ae78130a341f6321735682bce7ed"
+    },
+    {
+      "path": "lib/product-editor.ts",
+      "sourceSha256": "91211258f8b12b8bda0be236cf90c7ec33d3c8bdb0ca9afd8305da413500e147",
+      "integratedSha256": "91211258f8b12b8bda0be236cf90c7ec33d3c8bdb0ca9afd8305da413500e147",
+      "normalizedSha256": "91211258f8b12b8bda0be236cf90c7ec33d3c8bdb0ca9afd8305da413500e147"
+    },
+    {
+      "path": "lib/product-title-validation.ts",
+      "sourceSha256": "945d1dfeb2e8b2d6dc4734f5d9838e1e713ef83666bb8298c0d1164f16c1c8eb",
+      "integratedSha256": "945d1dfeb2e8b2d6dc4734f5d9838e1e713ef83666bb8298c0d1164f16c1c8eb",
+      "normalizedSha256": "945d1dfeb2e8b2d6dc4734f5d9838e1e713ef83666bb8298c0d1164f16c1c8eb"
+    },
+    {
+      "path": "lib/saved-variant-images.ts",
+      "sourceSha256": "dd2a71b6ac96ff9400ac0ff099562116fcd5d39797c411f3aa792a38459613f5",
+      "integratedSha256": "dd2a71b6ac96ff9400ac0ff099562116fcd5d39797c411f3aa792a38459613f5",
+      "normalizedSha256": "dd2a71b6ac96ff9400ac0ff099562116fcd5d39797c411f3aa792a38459613f5"
+    },
+    {
+      "path": "lib/sku.ts",
+      "sourceSha256": "66645f3d5374172bf7db42117293d3aa02fe3935071fcdd8bbedeaa03bbff5c3",
+      "integratedSha256": "66645f3d5374172bf7db42117293d3aa02fe3935071fcdd8bbedeaa03bbff5c3",
+      "normalizedSha256": "c2f2517e6656b1f8ac56347cfb48d12b7f4b7edba88ad81575c60e4343ec8cef"
+    },
+    {
+      "path": "types/product.ts",
+      "sourceSha256": "bc85b3d2de7cf38ebc9d329b03d40837a9178ec2103697e8daaf4e50ca245a2e",
+      "integratedSha256": "bc85b3d2de7cf38ebc9d329b03d40837a9178ec2103697e8daaf4e50ca245a2e",
+      "normalizedSha256": "0b0e9c876f924895d5faddb24852282f07f34aef7a1b8e111cf6ebd20c37ae79"
+    }
+  ],
+  "backend": [
+    {
+      "path": "src/models/Charm.mjs",
+      "sourceSha256": "dd3398a90aa417a81c27e78e415643c7e07efac9d29f77f5b978e955e8aef5e6",
+      "integratedSha256": "3cf2eb9d118bb78c46e2c23802436680072d09bd813ea1e24903203b82e8edb6",
+      "normalizedSha256": "28f006ee131a1d9a802372f769ea969cae4fbc841f10c875db348ffe883c6899"
+    },
+    {
+      "path": "src/models/Design.mjs",
+      "sourceSha256": "f60c59c99d85a0873f2630f4cbd9a962c0847aa8f117d9d505e27fa3519fd6ef",
+      "integratedSha256": "2fe6db45df7fe4812695b7a3755c2d794e36fbb61e226fbf41c5980cb33c333d",
+      "normalizedSha256": "b25ad2ee5cc900fcd128d67d8b3da9b3c9a7fa3f6cb97fda5b89744aa63c85f7"
+    },
+    {
+      "path": "src/models/GeneralProduct.mjs",
+      "sourceSha256": "c560151f7d6fedc388d280d0477858d0fc1a81d1431da855026e6fe52249dc8c",
+      "integratedSha256": "53034f11db9d6472f74dc0a1c2ce13d435bbd7b8dc73a1ae58f47b931634dab4",
+      "normalizedSha256": "14d1da1ba86e256d7fcc25b4732a06e3716a7490e93bef67cb82b12738d4e545"
+    },
+    {
+      "path": "src/models/Product.mjs",
+      "sourceSha256": "1868373ccf2c7095125438124f40d72488ee6a9160f74a4f2b85adb4ed5d9d43",
+      "integratedSha256": "2220ce65ac43bc17233c7a1934be5fab2c6995d944e1e63d9e3465182f5188c3",
+      "normalizedSha256": "b48a3340ace20fe03ac2bc356e5719d860afd0ea0fd89b24acd8d132d2d392b8"
+    },
+    {
+      "path": "src/routes/charms.mjs",
+      "sourceSha256": "a5871329d2e00e01aa9cc8ff3679f4427bfc7b2e2e9b80dad7e90bfd9e7d9edb",
+      "integratedSha256": "c7c81efb0f794d09ec09b5dd3af3dbe3989a43e246fcfafc4ffe19c7e1f23db9",
+      "normalizedSha256": "78bad0e4ac3c86d8c6e588c02f378cf0b961453254df1e2401c8d5c06b87d23d"
+    },
+    {
+      "path": "src/routes/designs.mjs",
+      "sourceSha256": "37f42a52c9e91364049d7e4a699ce9914d59cac77f484cecc987dc028722865f",
+      "integratedSha256": "165d0b4a3a01bacaefaf11dd9676719c56cd79bea4b830ff5344174df6fce10b",
+      "normalizedSha256": "abdfc6c5ce69750e4b44d95208a4049bdd5b68bf7d6ed651ea44cbf6fb1cc60a"
+    },
+    {
+      "path": "src/routes/general-products.mjs",
+      "sourceSha256": "e381907609b47e1facbcf1a66d5366d83fee4a201468e8821e0479feda12ef88",
+      "integratedSha256": "c1495307857ab2e6e4091384788ea38da7ac5217d2c38efd2fbb347dad9d1b34",
+      "normalizedSha256": "e18cf2b6e234d82225861af88b735d045213a1d9dc54b3264d8e386ae8c019b5"
+    },
+    {
+      "path": "src/routes/products.mjs",
+      "sourceSha256": "a8100e35ac291f34ed2804d643cca2641b5bcdb7d459f14db7d55c2bfa5b0f1a",
+      "integratedSha256": "c83252b408297c442b6b60ce73da4fddfd7667c2740d6056951c0e5b8ec4d2a7",
+      "normalizedSha256": "ab0ee0a2512b53cf29c38078d45491ce3592c02207d79cea0cda06a1882c8c9e"
+    },
+    {
+      "path": "src/services/charm-creation.mjs",
+      "sourceSha256": "8280d29980f73167df9afd69d8388265c4f5538df16873d25fcf651f7409513a",
+      "integratedSha256": "8280d29980f73167df9afd69d8388265c4f5538df16873d25fcf651f7409513a",
+      "normalizedSha256": "06c8709a190c06f12dd7079c78c529e2d8ef49a929eee992aa71234e42ec8ed4"
+    },
+    {
+      "path": "src/services/design-library.mjs",
+      "sourceSha256": "92452337105d0476f03b213c220723958b5fae124aabf5b63de2e2c64ca464e0",
+      "integratedSha256": "92452337105d0476f03b213c220723958b5fae124aabf5b63de2e2c64ca464e0",
+      "normalizedSha256": "697023ac4a78a8e2e6c26722352917bfd123852fac8dcd690834c46d7e4d4372"
+    },
+    {
+      "path": "src/services/general-products.mjs",
+      "sourceSha256": "6ec40e98290c26835a86547a1738f2d164db27a57560d0ae9ee4b2116c09c38e",
+      "integratedSha256": "6ec40e98290c26835a86547a1738f2d164db27a57560d0ae9ee4b2116c09c38e",
+      "normalizedSha256": "5a8d64bce8810181c5a53860875642af2e3fe0cdcf6718a0fda855e806994764"
+    },
+    {
+      "path": "src/services/product-import.mjs",
+      "sourceSha256": "eb783b11fe0add9f0823b78fb244ff4487e0781013632011dc29a5572843b33a",
+      "integratedSha256": "eb783b11fe0add9f0823b78fb244ff4487e0781013632011dc29a5572843b33a",
+      "normalizedSha256": "15bc6532425472eda7a88889cb8d548bda51d36b315fd0a961463b836b7cd55c"
+    },
+    {
+      "path": "frontend/lib/product-title-validation.ts",
+      "sourceSha256": "945d1dfeb2e8b2d6dc4734f5d9838e1e713ef83666bb8298c0d1164f16c1c8eb",
+      "integratedSha256": "63a40572fb5e8e5dff4a2ba78ff05c2f809e6bef62e8a904ada1ec230237d375",
+      "normalizedSha256": "6a7ce5e8b500fbd8fe403714ebee47e8d46cb3d2fae38d169e18f8e538d264cc"
+    },
+    {
+      "path": "frontend/app/api/ai/product-copy/route.ts",
+      "sourceSha256": "9c19eb12fa20d8d4a582b232fe7bc05f976226d2e17b7894b8ee68bb00f76a75",
+      "integratedSha256": "f6927f6fef2d4c839e69c75278e6ff611c54b5db94a917d3ee6ed7361e767ce7",
+      "normalizedSha256": "68e310d34ba2af10a895cb9e976f84293e72641978ef7ba52cf6af95e3ffa728"
+    },
+    {
+      "path": "frontend/app/api/ai/variant-titles/route.ts",
+      "sourceSha256": "6547b1548a36a2d4e3075cebac83b2b22267f61d1e2278fa40d837e41bfedbd4",
+      "integratedSha256": "0bc13db09d5f8f01e44466402e9e83b98d6fae84d67422c9385f8c89ed677e4a",
+      "normalizedSha256": "77e51b973c02789637dd420c3761a9df9dde5499c5709c24c7ac02d8aa7178cf"
+    },
+    {
+      "path": "frontend/lib/general-product-listing.ts",
+      "sourceSha256": "1a481909b7734a7377a2b7eae88a8d63fc4c2da735f8f1c94813c1eb2b77ae5b",
+      "integratedSha256": "11cee83606c8b5c82dc6794072c88be32f878ccba4eb8ef91d8d8ec564bfb559",
+      "normalizedSha256": "763a3d12e664eec078b830b9fca4ab8709b3a69a54cb51ab186ecf6a4339ddf0"
+    },
+    {
+      "path": "frontend/app/api/ai/general-product-copy/route.ts",
+      "sourceSha256": "548fdb37fbe33a32a634101303932fade871b6c075f66a85467396a972848b98",
+      "integratedSha256": "bdb17303146e6a51d12508389de0ebeff4095c626180fffa1adc8c14028d88ee",
+      "normalizedSha256": "5dd6e820d5f197e0bf9718f3c0a7e9a2daad0b0d0a10d99d8377f4058174d9bc"
+    },
+    {
+      "path": "frontend/app/api/ai/general-product-variant-titles/route.ts",
+      "sourceSha256": "c006e768b73dfc5d7d015855e93fb803d827a2cc2d851df08946b76f4650e6a8",
+      "integratedSha256": "f13eed67a19f5d9946f9429b8e82bc137e6942ed55cfd7558fdce84ad89bcd55",
+      "normalizedSha256": "ad483cdd45de6f17dee7d9e34fa74e20426e75906b439d6e1bef0b4a08264aee"
+    },
+    {
+      "path": "frontend/lib/meesho-upload-contract.ts",
+      "sourceSha256": "de2b1e0d3a242372b6a2c4305d5a3284c1d1cb5d70b4557624180bab4bb4c297",
+      "integratedSha256": "34e35478d26b5fcf5d612b0ad31860d7c4abadce601c07f6eb13e32ab656c0f1",
+      "normalizedSha256": "34e35478d26b5fcf5d612b0ad31860d7c4abadce601c07f6eb13e32ab656c0f1"
+    },
+    {
+      "path": "frontend/lib/meesho-staging.ts",
+      "sourceSha256": "b32ebd733ca82140fd705e13b7e6c197dce9e3460507b5915fe6cb6a11096141",
+      "integratedSha256": "3af78cf5888f2bf6fbbd3058bad7417315c2b1c681db6f08e2a915d106bb62a3",
+      "normalizedSha256": "e7152c79e5b515e90582530013c2eef4c1e1b2b99f5856d3d0e20af21c9d7c67"
+    },
+    {
+      "path": "frontend/app/api/meesho-upload/route.ts",
+      "sourceSha256": "b8d88c88bd935ab500b03d028128e047e05ffd8405f839af6144d5bc5416a649",
+      "integratedSha256": "83c7cb40bb003fc857d4820fb1bbcf5b4f7d366d5f8baa84c43293d6e7999297",
+      "normalizedSha256": "1f8e6efb18511daf4dcbc79a71f4c9655c094578e7536f91bd9da9421d16eb41"
+    }
+  ],
+  "assets": [
+    {
+      "path": "meesho-template.xlsx",
+      "sha256": "a6b437112def4e199e0667750dd07963d02f32175c66ce34eafac9a9e0e29824"
+    },
+    {
+      "path": "general-products-template.xlsx",
+      "sha256": "eba3483ee4fe15c0477bbbe1e76624f0072aaf86efef11a6017d1811a581dcb4"
+    },
+    {
+      "path": "listing-meesho-extension.zip",
+      "sha256": "0a4743ec046853861f54d294bddd40361e8bc631297539d317a37a0f96be8e7e"
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "source": "inventory-frontent/inventory-system-admin",
+  "backendSource": "Desktop/inventory-system",
+  "frontend": [
+    {
+      "path": "InventoryTable.tsx",
+      "sourceSha256": "13620b3a315dfdcb875f4ffeb91b45d5828ebb0fe716ac1917cec8a6e2336cef",
+      "integratedSha256": "5f6ee7eb6ba1bfa9eb20bab986c421b161509b83dc0cb88d99c1516111016d5c",
+      "normalizedSha256": "6828f6530010402f20516a79149dd3ece3ffd311c85cecc18ae9e9d1847edbbf"
+    },
+    {
+      "path": "page.tsx",
+      "sourceSha256": "91127c2abff291c599f5ffef073ef8a94c8c46b3bc6e7db17c1d1e4a023e3bb0",
+      "integratedSha256": "e5d887fcd88c11e98018e312a1d0457ca94ad97eeb07b8b204fb5f7dd0ac761c",
+      "normalizedSha256": "4449c07998b09a5356011cad953b33575d152341330349f0232f7dc7fe1a8051"
+    },
+    {
+      "path": "barcode-report/PackedItemsPage.tsx",
+      "sourceSha256": "f0c5dacd7c2662a8824f87df9f2fe43d76d5381176efddf995df01eee2c6e5b6",
+      "integratedSha256": "7b6b69a5a84f0fdeb4fcc7dcc3b8fc50069ad51386a8d446ae2cdae474a73e30",
+      "normalizedSha256": "f859839c39f710993026e07c2ff0f80079385925e22e2bc220788412fcf081b1"
+    },
+    {
+      "path": "barcode-report/page.tsx",
+      "sourceSha256": "65d772b7e4bcf9b6dea35103d44db344246cc4885c53f3f21fb5878d3d92bb19",
+      "integratedSha256": "3fa3c8add2f1529a0ad27199c0a8732f1ae0029eee27b1f6ad97049635fa728c",
+      "normalizedSha256": "ecd1ef491c22c6eb74664eced648d0ba0402ce1c9f0140834fa93cd817cf0d44"
+    },
+    {
+      "path": "categories/CategoryTable.tsx",
+      "sourceSha256": "29ce127a29be763a614250f1b5ab8434a3e3e070b56649e6cc29f8b44aa3c817",
+      "integratedSha256": "70a1fae909f91aee5b2ea36704b6ecd7a5061cde62104bfba8d8e0552ed05d03",
+      "normalizedSha256": "3a6306676ca7a46bc028ccee21f46d9fea25e2834298be8053b3291a4388462d"
+    },
+    {
+      "path": "categories/page.tsx",
+      "sourceSha256": "9291711f96507f0b891a82442861a0b2a2fbf20f8ff6e9310eab1968d26ad17f",
+      "integratedSha256": "63ac6c2372ccd5e4524060324f55862c9b10346b4c92c09aa915df5f118bda47",
+      "normalizedSha256": "b1f5c8447595fda0785297a394e1ff3279ff1b975f588aadebd8a593ebc5da07"
+    },
+    {
+      "path": "create-user/page.tsx",
+      "sourceSha256": "a2e9129dc50f683bfbc13c99353ad0c7bc20c07b35666382fd671721ba1445e0",
+      "integratedSha256": "e399ae06433211f9687f27b634a7e5e819d9861cd20ab2681b188d4ecb527f08",
+      "normalizedSha256": "385386a5ffd3757b06bf5f2e78767109618aafb4471df7f29bcaad8a192f55e6"
+    },
+    {
+      "path": "imagekit-images/page.tsx",
+      "sourceSha256": "6b7cd9cda071171d40d6655ca53c921ab44a6ab39aa236283629a99a9eceae81",
+      "integratedSha256": "9fb17c204329c0960afcd4938c63b3f747df79ab6ac101e2a881ad6a96032156",
+      "normalizedSha256": "f02f8c9648e7d7fd1592fd0ec15461d557c9a40458a634e999c10c09d53afb45"
+    },
+    {
+      "path": "inventory/InventoryDetail.tsx",
+      "sourceSha256": "98e285366f265b1668d4343d21f3c8ebdc43b615e91f7d4d6581a6ed8762f865",
+      "integratedSha256": "5440879c2c8ab0e5d5e9147261178b0af68047a68b29ad49ca97cc2a750f87a5",
+      "normalizedSha256": "47589f7c4bfcff1510981af87346565b22b093d3e4f30654ab698a5563790411"
+    },
+    {
+      "path": "inventory/InventoryList.tsx",
+      "sourceSha256": "e9e8d9490e1b875542226364faf384c917ab588ac052ffb5d04123fa4ea29af3",
+      "integratedSha256": "8315f775ebe54bdc10a2cc9b127fa1340060645374baef34bc8a69c653079cd5",
+      "normalizedSha256": "5eff1eb815ccfb84864f63390e31f017ae0a2cd96d78ca70ee723a6c547ba928"
+    },
+    {
+      "path": "inventory/page.tsx",
+      "sourceSha256": "7874925e6fa04eb7e1c4642bcd27739eae2f14d2c6d4f852ebbb93772bb3a9dd",
+      "integratedSha256": "1a80d790afcb1f6c3350fac0217ae127f0bcb2fb79be5eb1ecb986913b95746b",
+      "normalizedSha256": "d10225ca899ff853712d9e5430f4919c851e841acb9b356892e4a3fe65d0ef9d"
+    },
+    {
+      "path": "printing-jobs/page.tsx",
+      "sourceSha256": "92a83984e46ff485e2ddb28c89495cb32cb9923362b433e2128cad9a05dddd89",
+      "integratedSha256": "22d2f84c30c5cdd72e6c3c2317e2ea9977d79bfb85fb5c45775f90b41d992808",
+      "normalizedSha256": "f4e50efdc8699190e393bdd18eda406fef9611d3a49651722fd5b37ab326650a"
+    },
+    {
+      "path": "printing-jobs/PrintingJobPage.tsx",
+      "sourceSha256": "6eb88bd87c33b974261d1cbdaa5a4eca7c59543982813d8464c13973009ff0ef",
+      "integratedSha256": "e7527c5bc66f085d230735898b7c34ad4eb928e1944e073ecf366f1a81c826b8",
+      "normalizedSha256": "454c7fb6a12dd06b927edf1dc73074bb4d828aa2efdcfb21c6d3807ad2fba2bf"
+    },
+    {
+      "path": "printing-jobs/PrintingJobsList.tsx",
+      "sourceSha256": "acbb8cac6b69de67159e3dbda583de04b12ad6b33aedf4c07639289a4c8c5b62",
+      "integratedSha256": "dc0d70e6085c42a8af3f0426cab55abbb6103c2b04dc32df7bcc8c0686c78830",
+      "normalizedSha256": "1a344b345912028a1ea00c9e6bb2f086c56ce5d90b88b1b45315b6935a17cd27"
+    },
+    {
+      "path": "product-designs/CreateDesignForm.tsx",
+      "sourceSha256": "57dda24c4d22536ca04e73e16703d412de3327ef08a21d0ddffbd03a64dc3e8e",
+      "integratedSha256": "2cf7de19f23059edab04880facafc564c7ce87620e85509c4aa466dc7489b06e",
+      "normalizedSha256": "0646e83e8f19dff445a67a13c5b864869da5f4913ad80d781332ac3cb9b38d10"
+    },
+    {
+      "path": "product-designs/page.tsx",
+      "sourceSha256": "a4ddf8e1d4270bb4c44115cb995be48983d7fee0bfccbd11854ccce017257529",
+      "integratedSha256": "8a8ab290f404f359297772ed62df99a2bcac49f35ee257815278d3f8d2573159",
+      "normalizedSha256": "020693acf7063853faf21ddac2c6ecf12e125860372a82e83251481a42c97c74"
+    },
+    {
+      "path": "products/page.tsx",
+      "sourceSha256": "0c33eda20e5aa50dda97cc55f8e953a91f9ec2de5476620b8efb9cd496bcef41",
+      "integratedSha256": "9828a933830d3e2661568c1f4894162deec202732df20d2321b9b64d0840d3d5",
+      "normalizedSha256": "a275ece8cce8f68e7263000b4ba51e0c6eb265c62244f6818f5b7d0da65a9a48"
+    },
+    {
+      "path": "products/ProductTable.tsx",
+      "sourceSha256": "c837d6b7703bf3cbe0d286ed813eda88407347e2f22af6601f660ece0d9c3904",
+      "integratedSha256": "9f3c3e61b80c2898399d761181977bd8745f228b5399e571a2371a4b696d4c82",
+      "normalizedSha256": "35c468fd729c4c5657eb3c19984467e2e1b1864c567ebc83d9ec76d0d5d312b5"
+    },
+    {
+      "path": "purchase-orders/page.tsx",
+      "sourceSha256": "fbb1cf8f580a5d4c277dba9c360fd55e1f0f0a7e3ae96c3f3ebc50b1997e9ba9",
+      "integratedSha256": "57045f7610fb06af946c44e4c0294a475da99fa1b15eb08db0333a35c09f0a91",
+      "normalizedSha256": "1ac1e31d80051b630bd0c244c3ba77d10936fa15dfe6d045849f74cebace7658"
+    },
+    {
+      "path": "purchase-orders/PurchaseOrderPage.tsx",
+      "sourceSha256": "85e7015ff8011e341c36e40031100dc544c09bb9edd9e37884801aeb4c194011",
+      "integratedSha256": "44d6a9b5f9d1cdeaf98ef2c82147fb782718b3aca64e6ed3bd4311a232c2a6ac",
+      "normalizedSha256": "8c2fd7caccc4afcc382649714500278f121071fa5a1c0062baadd2ad1ba78e5b"
+    },
+    {
+      "path": "barcodes/[productId]/BackButton.tsx",
+      "sourceSha256": "5f9eb287e93cb62f4314b28231dce52eb133f9ff578d2285dd5c4921dae4f6c6",
+      "integratedSha256": "5c2a2609f7fbb271a9178adaa6dce0d4df64259cb56dae91346cbce4b1401301",
+      "normalizedSha256": "5f9eb287e93cb62f4314b28231dce52eb133f9ff578d2285dd5c4921dae4f6c6"
+    },
+    {
+      "path": "barcodes/[productId]/BarcodeCreateForm.tsx",
+      "sourceSha256": "d18b131b615163db5745b04bfeb5a42ddce42455871f8a3b7fefb544ddffbbb4",
+      "integratedSha256": "9c4f8fb00ccaa9b87a0b8f23a25bab5b4f79203f3a9aadc07defbdcc668b737a",
+      "normalizedSha256": "c29da8b5d384e97bb43dc24cc41622f2fcb37a53d9b0846d160d00861e31c42c"
+    },
+    {
+      "path": "barcodes/[productId]/BarcodeList.tsx",
+      "sourceSha256": "540cdce6942b18ef94218749b40bd716dde43df232926f8e23d376120b65db43",
+      "integratedSha256": "17b84a0e51e46b8063ab81db0780bf31df879767c02fbc46771fc60841fedf3e",
+      "normalizedSha256": "1c688f344036179e7cac96900d10ae4ac21ed0240926dbd511bc250077c2f347"
+    },
+    {
+      "path": "barcodes/[productId]/page.tsx",
+      "sourceSha256": "861649c238f9cecd3331e51d428089f966badc49279c682a7d7e9ec7c405f22c",
+      "integratedSha256": "ed3aa12986dd79371d2753e85a9e719013bada284231a18e3ece5f59df6d5606",
+      "normalizedSha256": "86760cadd2af9b2757b5704065588d9b0397158d3d6f02dc654b2e999da032be"
+    },
+    {
+      "path": "inventory/low-stock/page.tsx",
+      "sourceSha256": "1c45246cda3e39febd7b93f470d45d3af73515d8cbf07d4c0f591a6b75f114eb",
+      "integratedSha256": "e65f406db9b8099bded581da4c31ffea29e54cf99b29bd69f2b630d2064898b3",
+      "normalizedSha256": "88ae4e5519f17f7d394359470a0b58d8a8a5fa6028ff75a8be4942a0a3af0ccd"
+    },
+    {
+      "path": "inventory/[productId]/page.tsx",
+      "sourceSha256": "cf3a48ca15858eebf601a9cdc1b80e84a0a8b491f80a428aa5a14a59ac933931",
+      "integratedSha256": "c3976a7f7c4b5fb074e94627f1a3104bd08a23f5674f874b32ab0cba3fa8e001",
+      "normalizedSha256": "fedd63cab28bfb0e12cc5bc11276cb5865daf10729f0003bbff839af714ee8cc"
+    }
+  ],
+  "backend": [
+    {
+      "path": "src/models/Barcode.js",
+      "sourceSha256": "e1cf938d7997c9df4b200b6b29ca781dadca1a47d991405c7b3c64e6be2795e3",
+      "integratedSha256": "837a5b2f2718fbcd11c7f4e2205cd93d82bf8def4cea63d4a53e9e215b614065",
+      "normalizedSha256": "a2fc8c015a0e72a4051bd12990485ac9bb10532a3064e282d8011376e953cdc3"
+    },
+    {
+      "path": "src/models/Category.js",
+      "sourceSha256": "a1154e9c38e92227b297ff456ee057ecc810803ffd26f476972335c9fc1a79b7",
+      "integratedSha256": "45075d0fa4d1f7765fcb6e5990301ba5abb4119a591ac72cb17ccdd48bb51022",
+      "normalizedSha256": "96fff888f60d7c638f2547c741921f88a29a24a91ba3b60296248194ad5668be"
+    },
+    {
+      "path": "src/models/Inventory.js",
+      "sourceSha256": "dbc2479451c2c5b417cfb41578d94b605079a12ea2ef45c551d0fe96650f3b04",
+      "integratedSha256": "0bde538344d2d6111bc9317c447a7a8fa9245654e5f9530dba0f810dc58c9ae6",
+      "normalizedSha256": "89fb94dc36b4588dd02007b0c363ad590810b3f8da9248cf9209a491eaa453d4"
+    },
+    {
+      "path": "src/models/PackingSession.js",
+      "sourceSha256": "25ab1315b972be49e90c6492a823b3c47a86dfdc4a3b5926922302927d40f624",
+      "integratedSha256": "6f1e5b81cda0f9e1960e62157264423bef6632d66c74447933a8bd586ad7a717",
+      "normalizedSha256": "4752044ca9a200aeb763b72209722ddb6ff66f6594b4468dce1a28b6333e85e7"
+    },
+    {
+      "path": "src/models/PrintingJob.js",
+      "sourceSha256": "92525945af9f0d7c75a7ca0f52fa1f631216939695140426451eda6a33c58b76",
+      "integratedSha256": "f0754bb3e8513475bab809d0d9632269ffaf575a1ab0e3776456c14110f68844",
+      "normalizedSha256": "a93abfce6adadf05ac5b0a7f96d5734b774af5179bd82fd3b047b49daf77d29d"
+    },
+    {
+      "path": "src/models/Product.js",
+      "sourceSha256": "b464011df8fcb0456ae88826619d95d3451f7e18c591b55d8bdd1634bb63bc0e",
+      "integratedSha256": "b05cc0a79d4b79183cf608dcf83db31af57ea53404d1978ddee519d3ccd1c6f1",
+      "normalizedSha256": "0d9d9b92f6fe586168312ecae761d438352a177c7929ea5797aea53a622e4e1f"
+    },
+    {
+      "path": "src/models/ProductDesign.js",
+      "sourceSha256": "679fdf6134f558f5c27ec4f98fe3ecea71566d76ea6e177a663457c8febb9dbd",
+      "integratedSha256": "2559a055bebe537561c7b931ba51383c08d32d89a18f4488c37534eec6bb29b0",
+      "normalizedSha256": "b400febe062f97f4325f80766aa5fe7e8c207ec3c619d863fc6267b0191e64a0"
+    },
+    {
+      "path": "src/models/PurchaseOrder.js",
+      "sourceSha256": "8497821489d01faf5b8782117fbd7d413a6d0ca86203fe876a29dac9b1069693",
+      "integratedSha256": "4f0673d6c8be69cbe8c211edc68125e57aeb8d77e51668ebe57ca975d9e736de",
+      "normalizedSha256": "4ba7816de1225acbc70dec21aacba719bc47689c88d46e47d9408d9e48fdb905"
+    },
+    {
+      "path": "src/models/User.js",
+      "sourceSha256": "0c8a6fc6da900f9f833d67cda13cf9ca399d38b458fe99ede473f7878af62bc7",
+      "integratedSha256": "6da1a709031be2109a4cf88b6b4cfc68d4902cf27631a1c462496b8ef4ae43e1",
+      "normalizedSha256": "9136f9a4e0e032aad307ae96293fcef9850a0855e781d53956c6947160ccbc38"
+    },
+    {
+      "path": "src/controllers/auth.controller.js",
+      "sourceSha256": "fc3dd8d1da3d124d7420e173136222f2188da998d52b06dccc236d092e25a489",
+      "integratedSha256": "fc3dd8d1da3d124d7420e173136222f2188da998d52b06dccc236d092e25a489",
+      "normalizedSha256": "4bdacd7445a4d79e5a484bbd46d742ae97493c9b353e904692d02be5b4ef6c15"
+    },
+    {
+      "path": "src/controllers/barcode.controller.js",
+      "sourceSha256": "d8f4abace9870d9024eec1f0b16616f31667d105908241d0722b89dbb8e4657e",
+      "integratedSha256": "e6386b3f475e3fb34e691d22e6ad0eb94b75676fac5eca31f73abff6269a3821",
+      "normalizedSha256": "6503ee9075c65041c9c57717fe95d9aa6b90854a67a348f3741732329eb2b47a"
+    },
+    {
+      "path": "src/controllers/category.controller.js",
+      "sourceSha256": "fc51aa91a00423c34d4562a7ad01b0a481bff4bd9fbfe05a1996a078e99c3081",
+      "integratedSha256": "fc51aa91a00423c34d4562a7ad01b0a481bff4bd9fbfe05a1996a078e99c3081",
+      "normalizedSha256": "f86e18f0c6c6f31733f67f254e11f3fa4fe2d784a24dd25e39a138f2382c23fc"
+    },
+    {
+      "path": "src/controllers/inventory.controller.js",
+      "sourceSha256": "d8fde5f915dd0eb9495e8a35488393753bcf3d383f8aa8fefafdfa1ebca517e1",
+      "integratedSha256": "0f5321d9da2cfa146168fc54a47745862760f12b650c3e6dbadc6194fd85d44d",
+      "normalizedSha256": "ceb0c5050cefd382515aaa6a2ce5d9d9cd90abdb34433917659ad58688d3a9e8"
+    },
+    {
+      "path": "src/controllers/packing.controller.js",
+      "sourceSha256": "89f14e452b72e7a0784cca516441351d51e08eb8fc64bed80044d8674ed706c9",
+      "integratedSha256": "780e7ad6966ae8287ebf9c79bce5eeb558712b1d41bfa336b2bdd291a2b8372b",
+      "normalizedSha256": "964382069fd7445fd4aeb79daa31b8a6492d425d450cb602fb6b9c247e9c2d68"
+    },
+    {
+      "path": "src/controllers/printing.controller.js",
+      "sourceSha256": "10219c9c3ff518e6fcf9151484e4b26e507ecb83538ca60ab45b8681b5d0e0cc",
+      "integratedSha256": "9dd801853f2e66c4e7ba678d6e96c514e41ed4965a76fd253a4f634a7994c1e8",
+      "normalizedSha256": "594d39c02b338a420e1d9f8fc3d86ce5afbf2f4af0e9324a9e0c4d2126776c2f"
+    },
+    {
+      "path": "src/controllers/product.controller.js",
+      "sourceSha256": "fc023d7d65960c3ff86e109187a1ebd71b960cfec50ca838defe35acbd3d8934",
+      "integratedSha256": "fc023d7d65960c3ff86e109187a1ebd71b960cfec50ca838defe35acbd3d8934",
+      "normalizedSha256": "561a11e4684bcc7eec2b69d1017d3061727ca434caef8718adc596637fc4a48a"
+    },
+    {
+      "path": "src/controllers/productDesign.controller.js",
+      "sourceSha256": "299bb0d60752d0419bcad85e6485ff07217d1d35a93657853e1e18c53ee37b3f",
+      "integratedSha256": "299bb0d60752d0419bcad85e6485ff07217d1d35a93657853e1e18c53ee37b3f",
+      "normalizedSha256": "013d9f7edd2ecf10d203ec2a394e0e2037bd7bbd26e10cdf62be28a7b559d03a"
+    },
+    {
+      "path": "src/controllers/purchase.controller.js",
+      "sourceSha256": "b6e872ab0f6a6fde46c622118d8c3f3760a9a75b3de0c2eec791f3361096dab5",
+      "integratedSha256": "7035b3377cc45f02bfc787b3b14541d34ec1e68be50bae337e29a44d63703314",
+      "normalizedSha256": "b6e872ab0f6a6fde46c622118d8c3f3760a9a75b3de0c2eec791f3361096dab5"
+    },
+    {
+      "path": "src/services/barcode-generation.service.js",
+      "sourceSha256": "a811f512c566d45d6153c315d5c43ee94d66101e5b4c86c0b0c2161871e7dc05",
+      "integratedSha256": "a811f512c566d45d6153c315d5c43ee94d66101e5b4c86c0b0c2161871e7dc05",
+      "normalizedSha256": "a811f512c566d45d6153c315d5c43ee94d66101e5b4c86c0b0c2161871e7dc05"
+    },
+    {
+      "path": "src/services/inventory.service.js",
+      "sourceSha256": "39958692d835f56b9c7c64c8131f46ad0a9b791585cfb12ccc80ee782c3dff96",
+      "integratedSha256": "39958692d835f56b9c7c64c8131f46ad0a9b791585cfb12ccc80ee782c3dff96",
+      "normalizedSha256": "b2ad578c712d35b7da3c83544e64985adceecea5107920b6c6ee463a2de44f8c"
+    },
+    {
+      "path": "src/routes/auth.routes.js",
+      "sourceSha256": "53c2aee996d9336b061a49efda29a6ca066c7c6c55a9d343b02be7fae653703e",
+      "integratedSha256": "53c2aee996d9336b061a49efda29a6ca066c7c6c55a9d343b02be7fae653703e",
+      "normalizedSha256": "d9a3485dcadcaa7a138716a3ade68aa12be1ddb7e5bb328fae3b2da0229c1348"
+    },
+    {
+      "path": "src/routes/barcode.routes.js",
+      "sourceSha256": "7f82e00b8529c09cab88a1df3764a1bd037eae713d630f57804d279f6cf6dbf3",
+      "integratedSha256": "2ca9b48374d7c359261b09d301818645e1a5671bff250e7b7aa90afa24b8f1b5",
+      "normalizedSha256": "662fe4925bf81d456abab882dc44828e1c8be6c4fd4ff1ad1eafcb6679b3ba2e"
+    },
+    {
+      "path": "src/routes/category.routes.js",
+      "sourceSha256": "27693c46e5806b3619d5f1b9d4b877ab9e091897b679d0b85a55e0e761600181",
+      "integratedSha256": "05243b69c8e7cf5d28d3aa69e99c7d2bddd5de0849bbce764539eae080675fcb",
+      "normalizedSha256": "c79eab61e048acd6c4cd2fde0a0abf9920eed1897ed602723fbdf8ff1a26c6ae"
+    },
+    {
+      "path": "src/routes/dashboard.routes.js",
+      "sourceSha256": "c34442fb7c046ff74ee210e2f1f0dc81e8f1edd229c9a6a14041f68952ddc0ad",
+      "integratedSha256": "0f1e150fc68a0448dc1de91b33748c4c964df969b269fbe00cd8042d3652ef54",
+      "normalizedSha256": "4081d446270265cce543284f998718746be87e7ffea283b1a617a408b75265a5"
+    },
+    {
+      "path": "src/routes/imageRoutes.js",
+      "sourceSha256": "820fa827ae0cf3fcacc74b59816978d9d546644e1385fc69330bb4253b4f6099",
+      "integratedSha256": "820fa827ae0cf3fcacc74b59816978d9d546644e1385fc69330bb4253b4f6099",
+      "normalizedSha256": "ab4e0d11b94753317cda06ad33a143b43bc08e91556d4ed07913d08efc075051"
+    },
+    {
+      "path": "src/routes/index.js",
+      "sourceSha256": "57f1967bccc3f122052f428725728df999411d92f7cd0c7fc560a8fa08947e0c",
+      "integratedSha256": "57f1967bccc3f122052f428725728df999411d92f7cd0c7fc560a8fa08947e0c",
+      "normalizedSha256": "f89b4b7634f631e72d63ef0bb9e1a6e40dbd1ac99457673710da08ba40761ba1"
+    },
+    {
+      "path": "src/routes/inventory.routes.js",
+      "sourceSha256": "28f5d837eef9ccf8a20dbe8863c04fbc7c892a0b707566528697b74d25085fb7",
+      "integratedSha256": "9715acdcab8f15b16226add25cc47007831d2f10b5a49f54204f1e6aca4d6fa6",
+      "normalizedSha256": "60aa28e3603d47fa12efb1c0b9ce3f3ef06959a2517175dcc9372864c79d3411"
+    },
+    {
+      "path": "src/routes/packing.routes.js",
+      "sourceSha256": "a2fc46481b801bb90f98c021569d91bc2221b3fa5cafdffb8c2ece80a4168789",
+      "integratedSha256": "2c8c34da6694ce956edba233ae0966816e2580771e9adc3f2c111410d30e3668",
+      "normalizedSha256": "1938dfbaee3fad6cdb91ddb6ebf4bc306a8b55c87412e7c788bc53ff54a1623e"
+    },
+    {
+      "path": "src/routes/printing.routes.js",
+      "sourceSha256": "48de0df10470ed5f6891cf71cba5fabf7b83dcc62e6799bd7484e21bfb384757",
+      "integratedSha256": "aa1a6b0961978d46e671ce41a44fd7d2873e85ca4b9d5fc76274d8eee16e101e",
+      "normalizedSha256": "d469cc3c410150ffa96f765d0b0dfb396da3da89b1868b42e12f47e288c00bf9"
+    },
+    {
+      "path": "src/routes/product.routes.js",
+      "sourceSha256": "0f9d87898b783176fec2df7fdea041be21ae36ae1a4cae0c8112b27d1ed14cbb",
+      "integratedSha256": "56bde5f98e657136e447b690165b5d5c27607fc7c203a5d2f84adc855c01ba15",
+      "normalizedSha256": "2b17444ceef011fdbb399227caa40626d8d75e68a8741ae31580e373b4294d96"
+    },
+    {
+      "path": "src/routes/productDesign.routes.js",
+      "sourceSha256": "22297dd25330f6f63ff1c4b332de593f4cb9a58946582fc24149d85129330007",
+      "integratedSha256": "a3eb01700729eae54501cc08b6c8177a59fda3aaa0a1e24a01f5df89af300e5d",
+      "normalizedSha256": "a60420044848098577e81ada46543fa7fbfe2b85ce6df28f126457709fd56686"
+    },
+    {
+      "path": "src/routes/purchase.routes.js",
+      "sourceSha256": "4d034ec08648dac1777f243c54c1f4108fdfd71d238e4b38571d54b0b4ec606a",
+      "integratedSha256": "e77b1334225b2c9ff7d3b2e39770f2ecd0e751955ff79cf59191cdcaf3831c9f",
+      "normalizedSha256": "3101e6020eec2cd0aa364808c6fa26ad62ba906416783b948816ac2abbe434af"
+    }
+  ],
+  "mediaHandlers": [
+    {
+      "path": "app/api/imagekit/list/route.ts",
+      "sourceSha256": "94bf60ce0291a083a094dafe3f1304704f6e09135c0d26101921c5eb0c8f77c5",
+      "integratedSha256": "51a1cb2ab9b343eda92fcdac7ea7c2201d1f63e1831add7fa5b12ae58e784073",
+      "normalizedSha256": "b5e3db8c505db91022468256c6b2fd60beb34371465e9140b06be9ef62f87fa8"
+    },
+    {
+      "path": "app/api/imagekit/delete/route.ts",
+      "sourceSha256": "b10756a9977b9939a6adf867600a97f34b7d83879d22c81efb5821bb409763bc",
+      "integratedSha256": "14c6eccb07353d50a1f985f9707eeb67996de7d90da9220e0f2e6d0ee65c2c82",
+      "normalizedSha256": "fe0faa8c6b567c9e0d626ea839c770fbe63442bac2e82e9b4898b03a49f03830"
+    },
+    {
+      "path": "app/api/imagekit/replace/route.ts",
+      "sourceSha256": "80d17b379e61b200eec5a03ce6cf28ac4dc825987724e77ca5b52581878d5e30",
+      "integratedSha256": "4f8fa52cfeaaf02fdc76645fa3d54b0fbdcc9759f85249f713c2d21926c79b71",
+      "normalizedSha256": "d0bf30b9ca440b02b24b08e8ef0c38078a6e57f335936450ff49b00c7cc38fdb"
+    }
+  ],
+  "notes": "Original stock, printing, barcode and purchase calculations are preserved. Imports, routes, sessions and media transport are adapted to Margyn."
+}

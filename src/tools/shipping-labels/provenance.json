@@ -1,0 +1,24 @@
+{
+  "sourceProject": "shipping-labels-tool",
+  "adaptation": "TypeScript type erasure and explicit .mjs imports only. Processing algorithms and generated PDF/ZIP layouts are unchanged.",
+  "files": {
+    "readPdf.ts": {
+      "sha256": "ad74606489a8dfe1fb970cbfc547fe5e6daa8044a935bf497d5febee87a18f7c"
+    },
+    "extractOrder.ts": {
+      "sha256": "eee20922e18a7e406f52d3cd4deb332ea63ccfc7ef1ff7a736e32e2c3f642a37"
+    },
+    "groupOrders.ts": {
+      "sha256": "234c235792089b7c396118b3be7906f3b834519ec164ab50a294a5d83b37feb3"
+    },
+    "splitPdf.ts": {
+      "sha256": "0ffe3882fc67763216b3dd28b17bff7bfebfadf7122128461de1722f2025f7f7"
+    },
+    "createSummaryPdf.ts": {
+      "sha256": "d60c8bc32718681af62b0a2f4cf5ba44b9aa6124dc9522eda155bd75bf00e216"
+    },
+    "createZip.ts": {
+      "sha256": "70ffae394eff190ee540e17616d7ef8c6da0a6c49ca2670e06fd070801b161a2"
+    }
+  }
+}

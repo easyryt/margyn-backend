@@ -1,0 +1,90 @@
+{
+  "sourceProject": "image-generator",
+  "adaptations": [
+    "TypeScript type erasure and explicit local ES module imports",
+    "Express authentication, multipart validation and rate/concurrency guards",
+    "sharp patched to 0.35.5 without changing the generation algorithms"
+  ],
+  "files": {
+    "lib/ai-provider-options.ts": {
+      "sha256": "fed4a99cf95b40ffba1c855927e31471c052abb4063843ff2d163d382bd1c7de"
+    },
+    "lib/ai-provider.ts": {
+      "sha256": "706e04cb9a683d500792ff114769f2a7049be11a804f37cf749ac1f1c3ded074"
+    },
+    "lib/charm-hand-composition.ts": {
+      "sha256": "13634cba8b57ec92fc1798f2c1d27c362dd37ba46de81d17aaa8cd8651279e85"
+    },
+    "lib/charm-image-sizing.ts": {
+      "sha256": "534489852c75bef5f733ded25b28c736d2806ffbe630887b2342a9721e506ffa"
+    },
+    "lib/charm-pack-generation.ts": {
+      "sha256": "887f501bf0b4a2aa29fbb11f26507560ec781c03ee8fa0c94d74686003de97c9"
+    },
+    "lib/charm-pack-options.ts": {
+      "sha256": "8742bd9723e8ade6f707bd0f4e03afc999ef65a054fdf97dc2d0b923f08b639e"
+    },
+    "lib/charm-pack-tag.ts": {
+      "sha256": "2065c5bb86c4df47caf64f94de58b91bd52b17636c52ba7539676fc7727b0450"
+    },
+    "lib/charm-view-options.ts": {
+      "sha256": "87e5b953c38a0e0a0f41d4d137183c66c7a8a71273ecf22720076503f035b974"
+    },
+    "lib/cover-identity.ts": {
+      "sha256": "f99676c0a1494b378d96c86dce06b8d1461ba86df53f2336787302d02f41c98f"
+    },
+    "lib/cover-layouts.ts": {
+      "sha256": "92c27d74c1a767697029cd7ee3017f2e77518ef7f274d8eb444287df94bff110"
+    },
+    "lib/cover-template.ts": {
+      "sha256": "6ddcb6b896d5b8f52e90b9c5be7f8f179c3d8d44858f4c8d60f598ce6e9a545d"
+    },
+    "lib/local-image-enhancement.ts": {
+      "sha256": "b77b527b7cd8ce5999efac131d982b162f0506e64e889cee870c628ba71a73fc"
+    },
+    "lib/phone-models.ts": {
+      "sha256": "3c774982cc5498424975a788b87269087a876548ed5bea0e32e5f232afb6bcbb"
+    },
+    "app/api/generate/route.ts": {
+      "sha256": "8d4acf0b7605212a8419b852c09bb918596a69d31ebad6bd84b3abca06fbe550"
+    },
+    "app/api/generate-charms/route.ts": {
+      "sha256": "774e1dccae66d9392a6953e0dc313eee2e6a872f9eb842f8ded97af301a48c9d"
+    },
+    "app/api/generate-charm-pack/route.ts": {
+      "sha256": "3c4c1f276ad832b565c29b45c602b3e051c2437213bdaaa724aafd78a36f912c"
+    },
+    "app/api/providers/route.ts": {
+      "sha256": "7d8e8203b64c8650e3877338662fcd90aeb7c68b4d1a500be1088fc41436342c"
+    }
+  },
+  "assets": {
+    "templates/charm-hand-with-wristlet-transparent.png": {
+      "sha256": "5230885ad2ea76211bdce9a7f4b29e40ec9d22165fb2acdb0f317c1381976fcf"
+    },
+    "templates/charm-only-template.jpeg": {
+      "sha256": "b31184e7be840f0f6bda4416a611fbfafd57959d2b0551656e7e5772b777d95b"
+    },
+    "templates/charm-pack-fan-reference.jpeg": {
+      "sha256": "09fb32db3522834e1346bf1895eba070d6eba6cbbd441a3c98bdf2f0f598c29d"
+    },
+    "templates/charm-pack-palm-reference.jpeg": {
+      "sha256": "651c4404ead1bae0b7b2df42a979cd08f070d17bd2ca5af9777f18fefd44f53a"
+    },
+    "templates/charm-product-flatlay-template.jpeg": {
+      "sha256": "7dcb0196d49f7de8ade8ac11d471bd2949c09568b13f03d1cff33f184bf056d7"
+    },
+    "templates/layout-drop-protection.png": {
+      "sha256": "ce47e16f0932995d19c1301a82c48dcdeb5ef7563180b33e4b956ae777d19819"
+    },
+    "templates/layout-hand-closeup-transparent.png": {
+      "sha256": "465be94025f096ce4e9cdddd67f717fe11516dc3f248343c5ec816fe365181fd"
+    },
+    "templates/layout-model-selfie.png": {
+      "sha256": "34bf04281abd103ba313f76b0f0804499ff474a9530242df799a7447337bf505"
+    },
+    "templates/layout-three-cases.png": {
+      "sha256": "b834bf55067e77378c48d2c2b0c410ba8f026be7baa296245ad52252d1344fc2"
+    }
+  }
+}
