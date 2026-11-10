@@ -1,10 +1,8 @@
 import "./config.mjs";
+import { serverAddress } from "./services/server-address.mjs";
+const { port, host } = serverAddress();
 const { createApp } = await import("./app.mjs");
 const { getDb, closeDb } = await import("./services/db.mjs");
-const port = Number(process.env.PORT || 4000),
-  host = process.env.HOST || "127.0.0.1";
-if (!Number.isInteger(port) || port < 1 || port > 65535)
-  throw new Error("PORT must be between 1 and 65535.");
 try {
   await getDb();
   const server = createApp().listen(port, host);

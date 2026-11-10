@@ -33,7 +33,9 @@ npm run dev
 
 This project already has its configured `.env`. Run it in its own terminal; it does not launch the frontend. The default API URL is http://127.0.0.1:4000. `npm start` runs the API without the file watcher. There is no build step and no dependency on Next.js.
 
-The backend loads `.env` relative to this folder regardless of the launching directory. The frontend runs independently from the sibling `margyn-2026` project on port 3000. Existing process environment variables take precedence. Use `HOST=0.0.0.0` when a deployment container requires external binding.
+The backend loads `.env` relative to this folder regardless of the launching directory. The frontend runs independently from the sibling `margyn-2026` project on port 3000. Existing process environment variables take precedence. Local development defaults to `127.0.0.1:4000`. Production defaults to `0.0.0.0` when `HOST` is unset.
+
+On Render, `RENDER=true` automatically selects `0.0.0.0`, even if an old local `HOST=127.0.0.1` setting is present. The server uses Render's `PORT` value, falling back to `10000` if it is absent. This satisfies [Render's port-binding requirement](https://render.com/docs/web-services#port-binding). Use build command `npm install`, start command `npm start`, and health check path `/api/health`. Push the updated backend and redeploy; no manual host override is required on Render.
 
 ## Port already in use
 
@@ -45,7 +47,7 @@ Check `http://127.0.0.1:4000/api/health`; a running API returns `{"service":"mar
 
 | Variable                                                               | Purpose                                                                 |
 | ---------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| `HOST`, `PORT`                                                         | API listen address; defaults to `127.0.0.1:4000`                        |
+| `HOST`, `PORT`                                                         | Local default `127.0.0.1:4000`; Render uses `0.0.0.0` and its assigned `PORT` |
 | `FRONTEND_ORIGIN`                                                      | Allowed browser origin(s), comma separated, no trailing slash           |
 | `MONGODB_URI`, `MONGODB_DB`                                            | Atlas credentials and database; existing data uses `margyn_marketplace` |
 | `MONGODB_DNS_SERVERS`                                                  | Optional comma-separated DNS fallback for SRV resolution                |
