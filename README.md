@@ -37,6 +37,14 @@ The backend loads `.env` relative to this folder regardless of the launching dir
 
 On Render, `RENDER=true` automatically selects `0.0.0.0`, even if an old local `HOST=127.0.0.1` setting is present. The server uses Render's `PORT` value, falling back to `10000` if it is absent. This satisfies [Render's port-binding requirement](https://render.com/docs/web-services#port-binding). Use build command `npm install`, start command `npm start`, and health check path `/api/health`. Push the updated backend and redeploy; no manual host override is required on Render.
 
+For the deployed storefront, set this variable in the **Render backend service → Environment** and save/redeploy:
+
+```text
+FRONTEND_ORIGIN=http://localhost:3000,https://margyn-2026-inky.vercel.app
+```
+
+Use the frontend origin without `/login` or a trailing slash. The comma-separated value preserves localhost Postman/development requests and permits the deployed storefront. Updating `.env.example` documents the setting; the deployed service must receive it in Render's environment. The Vercel API rewrite forwards the browser's Origin header to this backend.
+
 ## Port already in use
 
 `EADDRINUSE` means another process is already listening on the configured port. Keep only one backend terminal running. Stop the earlier backend with Ctrl+C, then run `npm run dev` in the terminal you want to use. The API prints its ready message only after it has successfully bound the port.
@@ -53,7 +61,7 @@ Check `http://127.0.0.1:4000/api/health`; a running API returns `{"service":"mar
 | `MONGODB_DNS_SERVERS`                                                  | Optional comma-separated DNS fallback for SRV resolution                |
 | `IMAGEKIT_URL_ENDPOINT`                                                | Allowed product media URL prefix                                        |
 | `IMAGEKIT_PRIVATE_KEY`                                                 | Server-side ImageKit upload authentication                              |
-| `OTP_PROVIDER`                                                         | `development` locally or `twilio` for live SMS                          |
+| `OTP_PROVIDER`                                                         | `development` locally, explicit `test` for temporary OTP responses, or `twilio` for live SMS |
 | `TWILIO_ACCOUNT_SID`, `TWILIO_AUTH_TOKEN`, `TWILIO_VERIFY_SERVICE_SID` | Twilio Verify service credentials                                       |
 | `SHIPPING_FLAT_RATE`, `FREE_SHIPPING_ABOVE`                            | Shipping amounts in rupees; zero threshold disables free shipping       |
 | `TRUST_PROXY`                                                          | Enable only behind a trusted proxy replacing forwarded headers          |
@@ -227,3 +235,22 @@ Deleting a library image frees bytes. A smaller replacement is allowed even when
 Public plan and subscription responses include image/storage benefits and usage, while all provider-token counts remain admin-only. Storage usage is cached for display; opening/changing the library or POST /api/subscription/storage/refresh reconciles it. Missing provider size metadata blocks writes instead of assuming files are free. storage_accounts and storage_legacy_files hold byte usage/locks and references for older shared assets.
 
 Run node --test tests/resource-allowances.test.mjs for quota, renewal, partial generation, concurrent-worker, account isolation and multi-page reconciliation checks.
+
+## Temporary OTP-in-response login
+
+Until SMS is configured, explicitly set OTP_PROVIDER=test in the Render backend environment and redeploy the updated backend. Keep NODE_ENV=production so session cookies remain Secure and HttpOnly. The API generates a fresh random six-digit code and returns it from POST /api/auth/request-otp (and the administrator equivalent):
+
+```json
+{
+  "challengeId": "<challenge-id>",
+  "phone": "+919876543210",
+  "expiresAt": 1794355500000,
+  "resendAfter": 60,
+  "otp": "123456",
+  "developmentCode": "123456"
+}
+```
+
+The displayed code is illustrative, not fixed. Submit challengeId and the returned otp as code to POST /api/auth/verify-otp. The legacy developmentCode alias keeps existing clients compatible. The storefront/admin login forms display the returned code. Five-minute expiry, single-use verification, resend cooldown, attempt limits and administrator-role checks still apply. Only the code hash is stored. Turning test mode off also rejects outstanding test-mode challenges.
+
+This mode does not prove phone ownership: anyone who can request a code can sign in as that phone number, including a known administrator number. It is for temporary testing. Switch OTP_PROVIDER to twilio and configure the Twilio credentials for real SMS login. Test mode is never selected automatically because SMS configuration is missing; development mode remains blocked in production, and Twilio responses contain no OTP.

@@ -1,0 +1,298 @@
+{
+  "scope": "Login and customer marketplace APIs only",
+  "registeredRoutes": 25,
+  "documentedRequests": 29,
+  "routes": [
+    {
+      "method": "GET",
+      "registeredPath": "/api/locations/states",
+      "documentedPath": "/api/locations/states",
+      "name": "GET /api/locations/states",
+      "responseCodes": [
+        200
+      ]
+    },
+    {
+      "method": "GET",
+      "registeredPath": "/api/locations/cities",
+      "documentedPath": "/api/locations/cities",
+      "name": "GET /api/locations/cities",
+      "responseCodes": [
+        200
+      ]
+    },
+    {
+      "method": "GET",
+      "registeredPath": "/api/health",
+      "documentedPath": "/api/health",
+      "name": "GET /api/health",
+      "responseCodes": [
+        200
+      ]
+    },
+    {
+      "method": "POST",
+      "registeredPath": "/api/auth/request-otp",
+      "documentedPath": "/api/auth/request-otp",
+      "name": "POST /api/auth/request-otp",
+      "responseCodes": [
+        200,
+        200,
+        200,
+        403
+      ]
+    },
+    {
+      "method": "POST",
+      "registeredPath": "/api/auth/verify-otp",
+      "documentedPath": "/api/auth/verify-otp",
+      "name": "POST /api/auth/verify-otp",
+      "responseCodes": [
+        200,
+        403
+      ]
+    },
+    {
+      "method": "POST",
+      "registeredPath": "/api/auth/logout",
+      "documentedPath": "/api/auth/logout",
+      "name": "POST /api/auth/logout",
+      "responseCodes": [
+        200,
+        403
+      ]
+    },
+    {
+      "method": "GET",
+      "registeredPath": "/api/auth/me",
+      "documentedPath": "/api/auth/me",
+      "name": "GET /api/auth/me",
+      "responseCodes": [
+        200,
+        200
+      ]
+    },
+    {
+      "method": "GET",
+      "registeredPath": "/api/profile",
+      "documentedPath": "/api/profile",
+      "name": "GET /api/profile",
+      "responseCodes": [
+        200,
+        401
+      ]
+    },
+    {
+      "method": "PATCH",
+      "registeredPath": "/api/profile",
+      "documentedPath": "/api/profile",
+      "name": "PATCH /api/profile",
+      "responseCodes": [
+        200,
+        401,
+        403
+      ]
+    },
+    {
+      "method": "POST",
+      "registeredPath": "/api/profile/addresses",
+      "documentedPath": "/api/profile/addresses",
+      "name": "POST /api/profile/addresses",
+      "responseCodes": [
+        201,
+        401,
+        403
+      ]
+    },
+    {
+      "method": "PUT",
+      "registeredPath": "/api/profile/addresses/:id",
+      "documentedPath": "/api/profile/addresses/:id",
+      "name": "PUT /api/profile/addresses/:id",
+      "responseCodes": [
+        200,
+        401,
+        403
+      ]
+    },
+    {
+      "method": "DELETE",
+      "registeredPath": "/api/profile/addresses/:id",
+      "documentedPath": "/api/profile/addresses/:id",
+      "name": "DELETE /api/profile/addresses/:id",
+      "responseCodes": [
+        200,
+        401,
+        403
+      ]
+    },
+    {
+      "method": "PATCH",
+      "registeredPath": "/api/profile/addresses/:id/default",
+      "documentedPath": "/api/profile/addresses/:id/default",
+      "name": "PATCH /api/profile/addresses/:id/default",
+      "responseCodes": [
+        200,
+        401,
+        403
+      ]
+    },
+    {
+      "method": "GET",
+      "registeredPath": "/api/products",
+      "documentedPath": "/api/products",
+      "name": "GET /api/products",
+      "responseCodes": [
+        200
+      ]
+    },
+    {
+      "method": "GET",
+      "registeredPath": "/api/products/:id",
+      "documentedPath": "/api/products/:id",
+      "name": "GET /api/products/:id",
+      "responseCodes": [
+        200
+      ]
+    },
+    {
+      "method": "GET",
+      "registeredPath": "/api/media/:id",
+      "documentedPath": "/api/media/:id",
+      "name": "GET /api/media/:id",
+      "responseCodes": [
+        307
+      ]
+    },
+    {
+      "method": "GET",
+      "registeredPath": "/api/site/announcement",
+      "documentedPath": "/api/site/announcement",
+      "name": "GET /api/site/announcement",
+      "responseCodes": [
+        200,
+        200
+      ]
+    },
+    {
+      "method": "GET",
+      "registeredPath": "/api/site/promo-banner",
+      "documentedPath": "/api/site/promo-banner",
+      "name": "GET /api/site/promo-banner",
+      "responseCodes": [
+        200,
+        200
+      ]
+    },
+    {
+      "method": "GET",
+      "registeredPath": "/api/cart",
+      "documentedPath": "/api/cart",
+      "name": "GET /api/cart",
+      "responseCodes": [
+        200
+      ]
+    },
+    {
+      "method": "POST",
+      "registeredPath": "/api/cart",
+      "documentedPath": "/api/cart",
+      "name": "Add product to cart",
+      "responseCodes": [
+        200,
+        403
+      ]
+    },
+    {
+      "method": "POST",
+      "registeredPath": "/api/cart",
+      "documentedPath": "/api/cart",
+      "name": "Remove cart line",
+      "responseCodes": [
+        200,
+        403
+      ]
+    },
+    {
+      "method": "POST",
+      "registeredPath": "/api/cart",
+      "documentedPath": "/api/cart",
+      "name": "Apply coupon",
+      "responseCodes": [
+        200,
+        403
+      ]
+    },
+    {
+      "method": "POST",
+      "registeredPath": "/api/cart",
+      "documentedPath": "/api/cart",
+      "name": "Remove coupon",
+      "responseCodes": [
+        200,
+        403
+      ]
+    },
+    {
+      "method": "PATCH",
+      "registeredPath": "/api/cart",
+      "documentedPath": "/api/cart",
+      "name": "Update cart quantity",
+      "responseCodes": [
+        200,
+        403
+      ]
+    },
+    {
+      "method": "PATCH",
+      "registeredPath": "/api/cart",
+      "documentedPath": "/api/cart",
+      "name": "Save cart line for later",
+      "responseCodes": [
+        200,
+        403
+      ]
+    },
+    {
+      "method": "GET",
+      "registeredPath": "/api/orders/mine",
+      "documentedPath": "/api/orders/mine",
+      "name": "GET /api/orders/mine",
+      "responseCodes": [
+        200,
+        401
+      ]
+    },
+    {
+      "method": "GET",
+      "registeredPath": "/api/orders",
+      "documentedPath": "/api/orders",
+      "name": "GET /api/orders",
+      "responseCodes": [
+        200,
+        401
+      ]
+    },
+    {
+      "method": "GET",
+      "registeredPath": "/api/orders/:id",
+      "documentedPath": "/api/orders/:id",
+      "name": "GET /api/orders/:id",
+      "responseCodes": [
+        200,
+        401
+      ]
+    },
+    {
+      "method": "POST",
+      "registeredPath": "/api/orders",
+      "documentedPath": "/api/orders",
+      "name": "POST /api/orders",
+      "responseCodes": [
+        201,
+        401,
+        403
+      ]
+    }
+  ]
+}

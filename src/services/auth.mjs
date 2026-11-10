@@ -57,6 +57,8 @@ function provider() {
   const choice =
     process.env.OTP_PROVIDER ||
     (process.env.NODE_ENV === "production" ? "twilio" : "development");
+  // Explicit temporary deployment mode before SMS delivery is configured.
+  if (choice === "test") return choice;
   if (choice === "development" && process.env.NODE_ENV !== "production")
     return choice;
   if (
@@ -146,6 +148,7 @@ export async function requestOtp(value, ip = "local") {
     expiresAt: expiresAt.getTime(),
     resendAfter: 60,
     ...(mode === "development" ? { developmentCode: code } : {}),
+    ...(mode === "test" ? { otp: code, developmentCode: code } : {}),
   };
 }
 /** @returns {Promise<{token: string, user: import('../types').User}>} */
@@ -171,8 +174,8 @@ export async function verifyOtp(id, code, ip = "local") {
       "This code has expired or has too many attempts. Request a new code.",
     );
   if (
-    challenge.provider === "development" &&
-    process.env.NODE_ENV === "production"
+    (challenge.provider === "development" && process.env.NODE_ENV === "production") ||
+    (challenge.provider === "test" && process.env.OTP_PROVIDER !== "test")
   )
     throw new AppError("Request a new verification code.");
   const approved =
