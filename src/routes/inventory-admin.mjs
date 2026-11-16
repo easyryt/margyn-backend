@@ -7,6 +7,7 @@ import { requireUser } from "../middleware/session.mjs";
 import { AppError } from "../services/errors.mjs";
 import { rateLimit } from "../services/auth.mjs";
 import { withInventoryUser } from "../tools/inventory-admin/mongoose-context.mjs";
+import { markBarcodePrinted } from "../tools/inventory-admin/print-from-barcode.mjs";
 import InventoryImageKit from "../tools/inventory-admin/imagekit.mjs";
 const require = createRequire(import.meta.url);
 const original = "../tools/inventory-admin/original/src/";
@@ -44,13 +45,17 @@ inventoryAdminRoutes.use(async (req, res, next) => {
   const owner = req.user;
   const inventoryId = createHash("sha256").update("inventory-owner:" + owner.id).digest("hex").slice(0, 24);
   req.inventoryIdentity = { id: inventoryId, role: "ADMIN" };
-  if (!["GET", "HEAD"].includes(req.method)) await rateLimit("inventory-write:" + owner.id, 300, 3600);
+  if (!["GET", "HEAD"].includes(req.method)) {
+    const barcodeScan = req.path === "/packing/lookup" || req.path === "/printing-jobs/mark-printed";
+    await rateLimit((barcodeScan ? "inventory-print-scan:" : "inventory-write:") + owner.id, barcodeScan ? 3600 : 300, 3600);
+  }
   await withInventoryUser(owner.id, () => next(), async () => {
     if (!await User.exists({ _id: inventoryId })) await User.create({ _id: inventoryId, name: owner.name || "Workspace owner", email: inventoryId + "@inventory.margyn.local", password: randomBytes(32).toString("hex"), role: "ADMIN" });
   });
 });
 // Preserve the original Next proxy query conventions inside the Express namespace.
 inventoryAdminRoutes.get("/printing-jobs", (req, res, next) => req.query.kind === "products" ? getProducts(req, res) : next());
+inventoryAdminRoutes.post("/printing-jobs/mark-printed", markBarcodePrinted);
 inventoryAdminRoutes.get("/printing-jobs/:id", (req, res, next) => {
   if (req.query.kind !== "designs") return next();
   req.params.productId = req.params.id;
